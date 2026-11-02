@@ -5,10 +5,10 @@
 #include <LiquidCrystal_I2C.h>
 #include <time.h>
 
-const char* ssid = "Hacker hidden  Network1";
-const char* password = "smkr2010";
-const char* botToken = "8993275224:AAFQ5bC9UdfX2kPjNLVsepoQpwOqJRv-Vd4";
-const char* chatId = "8729191870";
+const char* ssid = "XXXXXXXXXXXXXXXXXXXXXX";
+const char* password = "XXXXXXXXXXXXXXX";
+const char* botToken = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+const char* chatId = "XXXXXXXXXXXXXXXXXXXX";
 
 // NTP Server settings for India Standard Time (IST = UTC + 5:30)
 const char* ntpServer = "pool.ntp.org";
