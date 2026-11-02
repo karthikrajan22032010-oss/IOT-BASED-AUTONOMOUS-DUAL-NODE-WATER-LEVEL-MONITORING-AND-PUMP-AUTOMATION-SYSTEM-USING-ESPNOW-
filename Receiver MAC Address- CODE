@@ -1,0 +1,18 @@
+#include <WiFi.h>
+
+void setup() {
+  Serial.begin(115200);
+  delay(1000); // Wait for Serial Monitor to connect
+
+  WiFi.mode(WIFI_STA);
+  WiFi.begin(); // Force the radio to turn on
+  delay(1000);  // Wait for the radio to fully initialize
+  
+  Serial.println();
+  Serial.print("Receiver MAC Address: ");
+  Serial.println(WiFi.macAddress());
+}
+
+void loop() { 
+  // Empty
+}
